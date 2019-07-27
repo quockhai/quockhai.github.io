@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300|Raleway:400,700" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/style.css">
+<title>How to copy text to the clipboard using UIPasteboard</title>
+<!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>How to copy text to the clipboard using UIPasteboard - Quoc Khai</title>
+<meta property="og:title" content="How to copy text to the clipboard using UIPasteboard" />
+<meta name="description" content="You can write to and read from the iOS clipboard by using the UIPasteboard class, which has a generalPasteboard() method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:" />
+<meta property="og:description" content="You can write to and read from the iOS clipboard by using the UIPasteboard class, which has a generalPasteboard() method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:" />
+<link rel="canonical" href="http://localhost:4000/ios/swift/2019/05/28/how-to-copy-text-to-the-clipboard-using-UIPasteboard.html" />
+<meta property="og:url" content="http://localhost:4000/ios/swift/2019/05/28/how-to-copy-text-to-the-clipboard-using-UIPasteboard.html" />
+<meta property="og:site_name" content="Quoc Khai" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-28T22:33:36+07:00" />
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "BlogPosting",
+"headline": "How to copy text to the clipboard using UIPasteboard",
+"datePublished": "2019-05-28T22:33:36+07:00",
+"description": "You can write to and read from the iOS clipboard by using the UIPasteboard class, which has a generalPasteboard() method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:",
+"url": "http://localhost:4000/ios/swift/2019/05/28/how-to-copy-text-to-the-clipboard-using-UIPasteboard.html"}</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+	<main class="container">
+		<section class="about">
+			<a href="/">
+				<img src="/assets/portfolio.jpg" alt="Quoc Khai">
+			</a>
+			
+			<h2>Quoc Khai</h2>
+			<p class="tagline">iOS Developer</p>
+			<ul class="social">
+				<a href="https://github.com/quockhai"><li><i class="icon-github-circled"></i></li></a>
+				<a href="https://www.linkedin.com/in/quoc-khai"><li><i class="icon-linkedin-squared"></i></li></a>
+				<a href="https://twitter.com/quockhaivn"><li><i class="icon-twitter-squared"></i></li></a>
+			</ul>
+			<p>&copy; 2019</p>
+		</section>
+		<section class="content">
+			<div class="post-container">
+<a class="post-link" href="/ios/swift/2019/05/28/how-to-copy-text-to-the-clipboard-using-UIPasteboard.html">
+	<h2 class="post-title">How to copy text to the clipboard using UIPasteboard</h2>
+</a>
+<div class="post-meta">
+	<ul class="post-categories"><li>iOS</li><li>Swift</li></ul>
+	<div class="post-date"><i class="icon-calendar"></i>May 28, 2019</div>
+</div>
+<div class="post">
+	<p>You can write to and read from the iOS clipboard by using the <strong>UIPasteboard</strong> class, which has a <strong>generalPasteboard()</strong> method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">pasteboard</span> <span class="o">=</span> <span class="kt">UIPasteboard</span><span class="o">.</span><span class="n">general</span>
+<span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello, world!"</span>
+</code></pre></div></div>
+
+<p>To read text back from the clipboard, you should unwrap its optional value like this:</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">string</span> <span class="o">=</span> <span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="p">{</span>
+    <span class="c1">// text was found and placed in the "string" constant</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+</div>
+		</section>
+	</main></body>
+</html>
