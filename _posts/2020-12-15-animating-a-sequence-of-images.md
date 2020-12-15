@@ -11,5 +11,14 @@ You can create a repeating "flip book" or animated gif effect given multiple ima
 With `images` and `duration` like this:
 
 ```swift
-UIImage.animatedImage(with: images, duration: 2.0)
+imageView.image = UIImage.animatedImage(with: images, duration: 2.0)
+```
+
+**OR**
+
+```swift
+imageView.animationImages = images
+imageView.animationDuration = 2.0
+
+imageView.startAnimating()
 ```
