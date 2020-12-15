@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Quốc Khải Blog – While the world sleeps, I dream</title>
+  <title>How to copy text to the clipboard using UIPasteboard – Quốc Khải Blog – While the world sleeps, I dream</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,11 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="While the world sleeps, I dream">
-    <meta property="og:description" content="While the world sleeps, I dream" />
+    <meta name="description" content="You can write to and read from the iOS clipboard by using the UIPasteboard class, which has a generalPasteboard() method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:
+" />
+    <meta property="og:description" content="You can write to and read from the iOS clipboard by using the UIPasteboard class, which has a generalPasteboard() method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:
+" />
     
     <meta name="author" content="Quốc Khải Blog" />
 
+    
+    <meta property="og:title" content="How to copy text to the clipboard using UIPasteboard" />
+    <meta property="twitter:title" content="How to copy text to the clipboard using UIPasteboard" />
     
   <!-- Async font loading -->
 <script>
@@ -77,45 +82,47 @@
 </div>
 
     <div id="main" role="main" class="container">
+      <article class="post">
+  <h1>How to copy text to the clipboard using UIPasteboard</h1>
+
+  <div>
+    <span class="date">
+      2019-05-28
+    </span>
+
+    <ul class="tag">
       
+      <li>
+        <a href="http://localhost:4000/tags#iOS">
+          iOS
+        </a>
+      </li>
+      
+    </ul>
+  </div>
 
-<div class="posts">
+  <div class="entry">
+    <p>You can write to and read from the iOS clipboard by using the <strong>UIPasteboard</strong> class, which has a <strong>generalPasteboard()</strong> method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">pasteboard</span> <span class="o">=</span> <span class="kt">UIPasteboard</span><span class="o">.</span><span class="n">general</span>
+<span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello, world!"</span>
+</code></pre></div></div>
+
+<p>To read text back from the clipboard, you should unwrap its optional value like this:</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">string</span> <span class="o">=</span> <span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="p">{</span>
+    <span class="c1">// text was found and placed in the "string" constant</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+  </div>
+
+  <div class="pagination">
+    
+    
+  </div>
+
   
-    <article class="post">
-      <h1>
-        <a href="/how-to-copy-text-to-the-clipboard-using-UIPasteboard/">How to copy text to the clipboard using UIPasteboard</a>
-      </h1>
-
-      <div>
-        <span class="date">
-          2019-05-28
-        </span>
-
-        <ul class="tag">
-          
-          <li>
-            <a href="http://localhost:4000/tags#iOS">
-              iOS
-            </a>
-          </li>
-          
-        </ul>
-      </div>
-
-      <div class="entry">
-        <p>You can write to and read from the iOS clipboard by using the <strong>UIPasteboard</strong> class, which has a <strong>generalPasteboard()</strong> method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:</p>
-
-      </div>
-
-      <a href="/how-to-copy-text-to-the-clipboard-using-UIPasteboard/" class="read-more">Read More</a>
-    </article>
-  
-</div>
-
-<div class="pagination">
-  
-  
-</div>
+</article>
 
     </div>
 
