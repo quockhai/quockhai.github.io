@@ -8,13 +8,13 @@ tags:
 
 Using `AVSpeechSynthesizer` to convert text to speech in easy way.
 
-1. First, import `AVFoundation` to your class:
+First, import `AVFoundation` to your class:
 
 ```swift
 import AVFoundation
 ```
 
-2. Create and using `AVSpeechSynthesizer`:
+Create and using `AVSpeechSynthesizer`:
 
 ```swift
 let utterance = AVSpeechUtterance(string: "Hello world")
