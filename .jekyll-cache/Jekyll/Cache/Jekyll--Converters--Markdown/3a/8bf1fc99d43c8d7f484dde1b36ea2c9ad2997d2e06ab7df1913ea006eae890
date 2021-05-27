@@ -1,0 +1,2 @@
+I"1<p>You can write to and read from the iOS clipboard by using the <strong>UIPasteboard</strong> class, which has a <strong>generalPasteboard()</strong> method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:</p>
+:ET

@@ -1,0 +1,19 @@
+I"<p>Using <code class="highlighter-rouge">AVSpeechSynthesizer</code> to convert text to speech in easy way.</p>
+
+<p>First, import <code class="highlighter-rouge">AVFoundation</code> to your class:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">AVFoundation</span>
+</code></pre></div></div>
+
+<p>Create and using <code class="highlighter-rouge">AVSpeechSynthesizer</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">utterance</span> <span class="o">=</span> <span class="kt">AVSpeechUtterance</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"Hello world"</span><span class="p">)</span>
+<span class="n">utterance</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="kt">AVSpeechSynthesisVoice</span><span class="p">(</span><span class="nv">language</span><span class="p">:</span> <span class="s">"en-GB"</span><span class="p">)</span>
+<span class="n">utterance</span><span class="o">.</span><span class="n">rate</span> <span class="o">=</span> <span class="mf">0.5</span> 
+
+<span class="k">let</span> <span class="nv">synthesizer</span> <span class="o">=</span> <span class="kt">AVSpeechSynthesizer</span><span class="p">()</span>
+<span class="n">synthesizer</span><span class="o">.</span><span class="nf">speak</span><span class="p">(</span><span class="n">utterance</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>You can custom <code class="highlighter-rouge">AVSpeechSynthesisVoice</code> with <code class="highlighter-rouge">language</code> or <code class="highlighter-rouge">identifier</code> (ex: <code class="highlighter-rouge">com.apple.ttsbundle.Samantha-compact</code> for Samantha voice).</p>
+:ET

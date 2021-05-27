@@ -64,7 +64,7 @@ html {
 }
 
 body {
-  font-family: "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
+  font-family: Helvetica, "Helvetica Neue", "SF Pro", Arial, sans-serif;
   color: #343a40;
   line-height: 1.6;
 }
@@ -626,7 +626,7 @@ footer .svg-icon em {
 }
 
 pre, code {
-  font-family: "Menlo", "Courier New", "Monaco", "Spoqa Han Sans", monospace;
+  font-family: "Menlo", "Courier New", "Monaco", monospace;
 }
 
 code.highlighter-rouge {

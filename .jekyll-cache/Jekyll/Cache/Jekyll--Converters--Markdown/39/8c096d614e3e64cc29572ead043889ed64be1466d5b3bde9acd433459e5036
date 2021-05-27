@@ -1,0 +1,12 @@
+I"<p>You can write to and read from the iOS clipboard by using the <strong>UIPasteboard</strong> class, which has a <strong>generalPasteboard()</strong> method that returns the shared system method of copying and pasting data between apps. Using this you can write text to the clipboard just like this:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">pasteboard</span> <span class="o">=</span> <span class="kt">UIPasteboard</span><span class="o">.</span><span class="n">general</span>
+<span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="o">=</span> <span class="s">"Hello, world!"</span>
+</code></pre></div></div>
+
+<p>To read text back from the clipboard, you should unwrap its optional value like this:</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">string</span> <span class="o">=</span> <span class="n">pasteboard</span><span class="o">.</span><span class="n">string</span> <span class="p">{</span>
+    <span class="c1">// text was found and placed in the "string" constant</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET
