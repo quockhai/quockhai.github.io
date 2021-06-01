@@ -15,11 +15,16 @@ Cơ duyên đến vào năm thứ 3 Đại học, năm đó, tôi nhận đượ
 
 Tốt nghiệp ĐH, tôi nộp CV cho một vài công ty, và rất may mắn, tôi được nhận vào làm Lập trình iOS ở **VNPay**. Người phỏng vấn tôi là anh Cường, anh dỏng cao, nói chuyện điềm đạm, một con người nhẹ nhàng, lịch thiệp. Sau đó, tôi có hơn 1 năm làm việc ở VNPay cùng với anh Tiến. Anh Tiến làm hầu hết các chứng năng chính, tôi là người mới vào được giao làm một vài chức năng nhỏ và một vài phần giao diện cho các ứng dụng ngân hàng như: **Agribank, VPBank, Liên Việt PostBank, ...**
 
-Ngoài ra, tôi cũng biết sơ sơ một chút về Python, ngôn ngữ này tôi hay dùng để làm một vài thứ nho nhỏ mà tôi yêu thích. Python khá hay, bởi cú pháp của nó rất gọn gàng và hỗ trợ rất nhiều thư viện hữu ích.
+Cuộc đời tôi có lẽ sẽ gắn bó với VNPay nếu, ... Vào một ngày đẹp trời, tôi tự dưng muốn đi học Thạc sĩ. Tôi xin phép sếp Cường nghỉ việc, anh gọi tôi ra nói chuyện riêng cả buổi chiều, nói về việc không nên đi học Thạc sĩ, rồi đến khi anh biết tôi muốn học theo chương trình Thạc sĩ của Pháp, thì anh đành chấp nhận cho tôi nghỉ làm.
 
-Về công việc, hiện tôi đang làm full-time tại một công ty phát triển các ứng dụng iOS. Tôi cũng tự phát triển các ứng dụng iOS của riêng mình và đưa lên AppStore.
+Sau đó, là quãng thời gian 3 năm tôi học Thạc sĩ ở **IFI - Viện Tin Học Pháp Ngữ**, nay đã đổi tên thành Viện Quốc Tế Pháp Ngữ. Tôi cũng được sang Pháp thực tập 6 tháng, và lấy bằng kép của ĐH QGHN và ĐH Lyon 1 - **Université Claude Bernard Lyon 1**.
+
+Giấc mơ Pháp - học tiếp lên tiến sĩ là tạo dựng sự nghiệp tại Pháp không thành, tôi lại quay về Việt Nam và tiếp tục con đường Lập trình iOS cho đến tận bây giờ.
+
+Hiện tôi đang làm full-time tại một công ty phát triển các ứng dụng iOS. Tôi cũng tự phát triển các ứng dụng iOS của riêng mình và đưa lên AppStore.
+
+Ngoài iOS, tôi cũng biết sơ sơ một chút về Python, ngôn ngữ này tôi hay dùng để làm một vài thứ nho nhỏ mà tôi yêu thích. Python khá hay, bởi cú pháp của nó rất gọn gàng và hỗ trợ rất nhiều thư viện hữu ích.
 
 Về blog này, đây là nơi tôi chia sẻ mọi thứ mà cá nhân tôi thấy thú vị, tất nhiên, chủ yếu vẫn là về *Lập trình iOS*.
-
 
 Mọi ý kiến đóng góp, thắc mắc, phản hồi xin vui lòng liên hệ qua eMail: [quockhai.vn@gmail.com](mailto:quockhai.vn@gmail.com)
