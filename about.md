@@ -19,7 +19,7 @@ Cuộc đời tôi có lẽ sẽ gắn bó với VNPay nếu, ... Vào một ng�
 
 Sau đó, là quãng thời gian 3 năm tôi học Thạc sĩ ở **IFI - Viện Tin Học Pháp Ngữ**, nay đã đổi tên thành Viện Quốc Tế Pháp Ngữ. Tôi cũng được sang Pháp thực tập 6 tháng, và lấy bằng kép của ĐH QGHN và ĐH Lyon 1 - **Université Claude Bernard Lyon 1**.
 
-Giấc mơ Pháp - học tiếp lên tiến sĩ là tạo dựng sự nghiệp tại Pháp không thành, tôi lại quay về Việt Nam và tiếp tục con đường Lập trình iOS cho đến tận bây giờ.
+Giấc mơ Pháp - học tiếp lên tiến sĩ và tạo dựng sự nghiệp tại Pháp không thành, tôi quay về Việt Nam và tiếp tục con đường Lập trình iOS cho đến tận bây giờ.
 
 Hiện tôi đang làm full-time tại một công ty phát triển các ứng dụng iOS. Tôi cũng tự phát triển các ứng dụng iOS của riêng mình và đưa lên AppStore.
 
