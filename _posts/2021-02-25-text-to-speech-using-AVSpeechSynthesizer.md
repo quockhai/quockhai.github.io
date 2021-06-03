@@ -4,6 +4,7 @@ title: Text-To-Speech đơn giản với AVSpeechSynthesizer
 tags:
   - iOS
   - speech
+  - AVFoundation
 ---
 
 Sử dụng `AVSpeechSynthesizer` để làm tính năng Text-To-Speech một cách hết sức đơn giản.

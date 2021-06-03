@@ -5,6 +5,7 @@ tags:
   - iOS
   - extension
   - Data
+  - String
 ---
 
 Bạn có `Data` và bạn muốn tạo một `String` với format dạng JSON từ nó? Đơn giản chỉ để `print` cái `String` ấy ra xem cho dễ chẳng hạn.

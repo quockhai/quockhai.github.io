@@ -4,6 +4,7 @@ title: Tạo animation với một chuỗi các hình ảnh
 tags:
   - iOS
   - animation
+  - UIImage
 ---
 
 `UIImage` ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?
