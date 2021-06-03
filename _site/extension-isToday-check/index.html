@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Tags – Quốc Khải Blog – While the world sleeps, I dream</title>
+  <title>Extension - Kiểm tra một ngày bất kỳ có phải hôm nay – Quốc Khải Blog – While the world sleeps, I dream</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,14 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="While the world sleeps, I dream">
-    <meta property="og:description" content="While the world sleeps, I dream" />
+    <meta name="description" content="Calendar có một hàm rất hay và đơn giản để kiểm tra xem một ngày bất kỳ có phải ngày hôm nay hay không:
+" />
+    <meta property="og:description" content="Calendar có một hàm rất hay và đơn giản để kiểm tra xem một ngày bất kỳ có phải ngày hôm nay hay không:
+" />
     
     <meta name="author" content="Quốc Khải Blog" />
 
     
-    <meta property="og:title" content="Tags" />
-    <meta property="twitter:title" content="Tags" />
+    <meta property="og:title" content="Extension - Kiểm tra một ngày bất kỳ có phải hôm nay" />
+    <meta property="twitter:title" content="Extension - Kiểm tra một ngày bất kỳ có phải hôm nay" />
     
   <!-- Async font loading -->
 <script>
@@ -80,144 +82,73 @@
 </div>
 
     <div id="main" role="main" class="container">
-      <article class="page">
+      <article class="post">
+  <h2>Extension - Kiểm tra một ngày bất kỳ có phải hôm nay</h2>
 
-  <h1>Tags</h1>
+  <div>
+    <span class="date">
+      2021-06-03
+    </span>
+
+    <ul class="tag">
+      
+      <li>
+        <a href="http://localhost:4000/tags#iOS">
+          iOS
+        </a>
+      </li>
+      
+      <li>
+        <a href="http://localhost:4000/tags#extension">
+          extension
+        </a>
+      </li>
+      
+    </ul>
+  </div>
 
   <div class="entry">
-    
+    <p><code class="highlighter-rouge">Calendar</code> có một hàm rất hay và đơn giản để kiểm tra xem một ngày bất kỳ có phải ngày hôm nay hay không:</p>
 
-<div class="tags">
-  <ul class="label">
-    
-    <li>
-      <a href="#iOS">
-        <span>iOS</span>
-        <span class="count">3</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="#animation">
-        <span>animation</span>
-        <span class="count">1</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="#speech">
-        <span>speech</span>
-        <span class="count">1</span>
-      </a>
-    </li>
-    
-    <li>
-      <a href="#extension">
-        <span>extension</span>
-        <span class="count">1</span>
-      </a>
-    </li>
-    
-  </ul>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="n">date</span><span class="p">)</span>
+</code></pre></div></div>
 
-  
-    <h2 id="iOS">
-      iOS
-    </h2>
-    <ul class="tag">
-      
+<hr />
+
+<p>Để cho đơn giản, hãy tạo một extension cho <code class="highlighter-rouge">Date</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">isToday</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span>
+	<span class="k">get</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Sau đó, ta có thể sử dụng nó như sau:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">date</span> <span class="o">=</span> <span class="c1">// #Your date</span>
         
-          <li>
-            
-              <a href="/extension-isToday-check/">
-            
-                Extension - Kiểm tra một ngày bất kỳ có phải hôm nay
-              </a>
-              <time>2021-06-03</time>
-          </li>
-        
-      
-        
-          <li>
-            
-              <a href="/text-to-speech-using-AVSpeechSynthesizer/">
-            
-                Text-To-Speech đơn giản với AVSpeechSynthesizer
-              </a>
-              <time>2021-02-25</time>
-          </li>
-        
-      
-        
-          <li>
-            
-              <a href="/animating-a-sequence-of-images/">
-            
-                Tạo animation với một chuỗi các hình ảnh
-              </a>
-              <time>2020-02-25</time>
-          </li>
-        
-      
-    </ul>
-  
-    <h2 id="animation">
-      animation
-    </h2>
-    <ul class="tag">
-      
-        
-          <li>
-            
-              <a href="/animating-a-sequence-of-images/">
-            
-                Tạo animation với một chuỗi các hình ảnh
-              </a>
-              <time>2020-02-25</time>
-          </li>
-        
-      
-    </ul>
-  
-    <h2 id="speech">
-      speech
-    </h2>
-    <ul class="tag">
-      
-        
-          <li>
-            
-              <a href="/text-to-speech-using-AVSpeechSynthesizer/">
-            
-                Text-To-Speech đơn giản với AVSpeechSynthesizer
-              </a>
-              <time>2021-02-25</time>
-          </li>
-        
-      
-    </ul>
-  
-    <h2 id="extension">
-      extension
-    </h2>
-    <ul class="tag">
-      
-        
-          <li>
-            
-              <a href="/extension-isToday-check/">
-            
-                Extension - Kiểm tra một ngày bất kỳ có phải hôm nay
-              </a>
-              <time>2021-06-03</time>
-          </li>
-        
-      
-    </ul>
-  
-</div>
+<span class="k">if</span> <span class="n">date</span><span class="o">.</span><span class="n">isToday</span> <span class="p">{</span>
+	<span class="c1">// #Code</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Rất hay phải không nào ^^</p>
 
   </div>
+
+  <div class="pagination">
+    
+      <span class="prev" >
+          <a href="http://localhost:4000/text-to-speech-using-AVSpeechSynthesizer/">
+            Text-To-Speech đơn giản với AVSpeechSynthesizer
+          </a>
+      </span>
+    
+    
+  </div>
+
+  
 </article>
 
     </div>

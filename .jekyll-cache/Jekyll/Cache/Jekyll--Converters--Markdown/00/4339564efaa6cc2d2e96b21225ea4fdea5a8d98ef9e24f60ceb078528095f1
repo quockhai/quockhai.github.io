@@ -1,0 +1,19 @@
+I"�<p>Sử dụng <code class="highlighter-rouge">AVSpeechSynthesizer</code> để làm tính năng Text-To-Speech một cách hết sức đơn giản.</p>
+
+<p>Đầu tiên, import <code class="highlighter-rouge">AVFoundation</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">AVFoundation</span>
+</code></pre></div></div>
+
+<p>Tạo và sử dụng <code class="highlighter-rouge">AVSpeechSynthesizer</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">utterance</span> <span class="o">=</span> <span class="kt">AVSpeechUtterance</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"Hello world"</span><span class="p">)</span>
+<span class="n">utterance</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="kt">AVSpeechSynthesisVoice</span><span class="p">(</span><span class="nv">language</span><span class="p">:</span> <span class="s">"en-GB"</span><span class="p">)</span>
+<span class="n">utterance</span><span class="o">.</span><span class="n">rate</span> <span class="o">=</span> <span class="mf">0.5</span> 
+
+<span class="k">let</span> <span class="nv">synthesizer</span> <span class="o">=</span> <span class="kt">AVSpeechSynthesizer</span><span class="p">()</span>
+<span class="n">synthesizer</span><span class="o">.</span><span class="nf">speak</span><span class="p">(</span><span class="n">utterance</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Với <code class="highlighter-rouge">AVSpeechSynthesisVoice</code> bạn có thể chọn ngôn ngữ <code class="highlighter-rouge">language</code> và giọng đọc <code class="highlighter-rouge">identifier</code> (VD: <code class="highlighter-rouge">com.apple.ttsbundle.Samantha-compact</code> cho giọng của Samantha).</p>
+:ET

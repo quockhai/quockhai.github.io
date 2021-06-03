@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Text to speech using AVSpeechSynthesizer – Quốc Khải Blog – While the world sleeps, I dream</title>
+  <title>Text-To-Speech đơn giản với AVSpeechSynthesizer – Quốc Khải Blog – While the world sleeps, I dream</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,16 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="Using AVSpeechSynthesizer to convert text to speech in easy way.
+    <meta name="description" content="Sử dụng AVSpeechSynthesizer để làm tính năng Text-To-Speech một cách hết sức đơn giản.
 " />
-    <meta property="og:description" content="Using AVSpeechSynthesizer to convert text to speech in easy way.
+    <meta property="og:description" content="Sử dụng AVSpeechSynthesizer để làm tính năng Text-To-Speech một cách hết sức đơn giản.
 " />
     
     <meta name="author" content="Quốc Khải Blog" />
 
     
-    <meta property="og:title" content="Text to speech using AVSpeechSynthesizer" />
-    <meta property="twitter:title" content="Text to speech using AVSpeechSynthesizer" />
+    <meta property="og:title" content="Text-To-Speech đơn giản với AVSpeechSynthesizer" />
+    <meta property="twitter:title" content="Text-To-Speech đơn giản với AVSpeechSynthesizer" />
     
   <!-- Async font loading -->
 <script>
@@ -83,11 +83,11 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>Text to speech using AVSpeechSynthesizer</h1>
+  <h2>Text-To-Speech đơn giản với AVSpeechSynthesizer</h2>
 
   <div>
     <span class="date">
-      2021-01-25
+      2021-02-25
     </span>
 
     <ul class="tag">
@@ -108,14 +108,14 @@
   </div>
 
   <div class="entry">
-    <p>Using <code class="highlighter-rouge">AVSpeechSynthesizer</code> to convert text to speech in easy way.</p>
+    <p>Sử dụng <code class="highlighter-rouge">AVSpeechSynthesizer</code> để làm tính năng Text-To-Speech một cách hết sức đơn giản.</p>
 
-<p>First, import <code class="highlighter-rouge">AVFoundation</code> to your class:</p>
+<p>Đầu tiên, import <code class="highlighter-rouge">AVFoundation</code>:</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">AVFoundation</span>
 </code></pre></div></div>
 
-<p>Create and using <code class="highlighter-rouge">AVSpeechSynthesizer</code>:</p>
+<p>Tạo và sử dụng <code class="highlighter-rouge">AVSpeechSynthesizer</code>:</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">utterance</span> <span class="o">=</span> <span class="kt">AVSpeechUtterance</span><span class="p">(</span><span class="nv">string</span><span class="p">:</span> <span class="s">"Hello world"</span><span class="p">)</span>
 <span class="n">utterance</span><span class="o">.</span><span class="n">voice</span> <span class="o">=</span> <span class="kt">AVSpeechSynthesisVoice</span><span class="p">(</span><span class="nv">language</span><span class="p">:</span> <span class="s">"en-GB"</span><span class="p">)</span>
@@ -125,7 +125,7 @@
 <span class="n">synthesizer</span><span class="o">.</span><span class="nf">speak</span><span class="p">(</span><span class="n">utterance</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>You can custom <code class="highlighter-rouge">AVSpeechSynthesisVoice</code> with <code class="highlighter-rouge">language</code> or <code class="highlighter-rouge">identifier</code> (ex: <code class="highlighter-rouge">com.apple.ttsbundle.Samantha-compact</code> for Samantha voice).</p>
+<p>Với <code class="highlighter-rouge">AVSpeechSynthesisVoice</code> bạn có thể chọn ngôn ngữ <code class="highlighter-rouge">language</code> và giọng đọc <code class="highlighter-rouge">identifier</code> (VD: <code class="highlighter-rouge">com.apple.ttsbundle.Samantha-compact</code> cho giọng của Samantha).</p>
 
   </div>
 
@@ -133,10 +133,16 @@
     
       <span class="prev" >
           <a href="http://localhost:4000/animating-a-sequence-of-images/">
-            &#xE000; Animating A Sequence of Images
+            Tạo animation với một chuỗi các hình ảnh
           </a>
       </span>
     
+    
+      <span class="next" >
+          <a href="http://localhost:4000/extension-isToday-check/">
+            Extension - Kiểm tra một ngày bất kỳ có phải hôm nay
+          </a>
+      </span>
     
   </div>
 
@@ -189,7 +195,7 @@
 
 
 
-<p>© 2015 Quốc Khải Blog. All rights reserved.</p>
+<p>© 2020 Quốc Khải Blog. All rights reserved.</p>
 
         </footer>
       </div>

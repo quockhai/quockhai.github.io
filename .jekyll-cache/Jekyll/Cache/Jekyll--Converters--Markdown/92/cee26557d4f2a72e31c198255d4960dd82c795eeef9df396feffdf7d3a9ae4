@@ -1,0 +1,27 @@
+I"<p><code class="highlighter-rouge">Calendar</code> có một hàm rất hay và đơn giản để kiểm tra xem một ngày bất kỳ có phải ngày hôm nay hay không:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="n">date</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<p>Để cho đơn giản, hãy tạo một extension cho <code class="highlighter-rouge">Date</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">isToday</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span>
+	<span class="k">get</span> <span class="p">{</span>
+		<span class="k">return</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Sau đó, ta có thể sử dụng nó như sau:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">date</span> <span class="o">=</span> <span class="c1">// #Your date</span>
+        
+<span class="k">if</span> <span class="n">date</span><span class="o">.</span><span class="n">isToday</span> <span class="p">{</span>
+	<span class="c1">// #Code</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Rất hay phải không nào ^^</p>
+:ET

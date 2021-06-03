@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Animating A Sequence of Images – Quốc Khải Blog – While the world sleeps, I dream</title>
+  <title>Tạo animation với một chuỗi các hình ảnh – Quốc Khải Blog – While the world sleeps, I dream</title>
 
       <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
@@ -9,16 +9,16 @@
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
     
-    <meta name="description" content="You can create a repeating “flip book” or animated gif effect given multiple images.
+    <meta name="description" content="UIImage ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?
 " />
-    <meta property="og:description" content="You can create a repeating “flip book” or animated gif effect given multiple images.
+    <meta property="og:description" content="UIImage ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?
 " />
     
     <meta name="author" content="Quốc Khải Blog" />
 
     
-    <meta property="og:title" content="Animating A Sequence of Images" />
-    <meta property="twitter:title" content="Animating A Sequence of Images" />
+    <meta property="og:title" content="Tạo animation với một chuỗi các hình ảnh" />
+    <meta property="twitter:title" content="Tạo animation với một chuỗi các hình ảnh" />
     
   <!-- Async font loading -->
 <script>
@@ -83,11 +83,11 @@
 
     <div id="main" role="main" class="container">
       <article class="post">
-  <h1>Animating A Sequence of Images</h1>
+  <h2>Tạo animation với một chuỗi các hình ảnh</h2>
 
   <div>
     <span class="date">
-      2020-12-15
+      2020-02-25
     </span>
 
     <ul class="tag">
@@ -108,14 +108,16 @@
   </div>
 
   <div class="entry">
-    <p>You can create a repeating “flip book” or animated gif effect given multiple images.</p>
+    <p><code class="highlighter-rouge">UIImage</code> ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?</p>
 
-<p>With <code class="highlighter-rouge">images</code> and <code class="highlighter-rouge">duration</code> like this:</p>
+<p>Đơn giản, chỉ cần truyền vào một mảng các images và đặt duration cho chúng. Hãy làm như sau:</p>
+
+<p><strong>Cách 1:</strong></p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">imageView</span><span class="o">.</span><span class="n">image</span> <span class="o">=</span> <span class="kt">UIImage</span><span class="o">.</span><span class="nf">animatedImage</span><span class="p">(</span><span class="nv">with</span><span class="p">:</span> <span class="n">images</span><span class="p">,</span> <span class="nv">duration</span><span class="p">:</span> <span class="mf">2.0</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p><strong>OR</strong></p>
+<p><strong>Cách 2:</strong></p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">imageView</span><span class="o">.</span><span class="n">animationImages</span> <span class="o">=</span> <span class="n">images</span>
 <span class="n">imageView</span><span class="o">.</span><span class="n">animationDuration</span> <span class="o">=</span> <span class="mf">2.0</span>
@@ -127,16 +129,10 @@
 
   <div class="pagination">
     
-      <span class="prev" >
-          <a href="http://localhost:4000/how-to-copy-text-to-the-clipboard-using-UIPasteboard/">
-            &#xE000; How to copy text to the clipboard using UIPasteboard
-          </a>
-      </span>
-    
     
       <span class="next" >
           <a href="http://localhost:4000/text-to-speech-using-AVSpeechSynthesizer/">
-            Text to speech using AVSpeechSynthesizer &#xE001;
+            Text-To-Speech đơn giản với AVSpeechSynthesizer
           </a>
       </span>
     
@@ -191,7 +187,7 @@
 
 
 
-<p>© 2015 Quốc Khải Blog. All rights reserved.</p>
+<p>© 2020 Quốc Khải Blog. All rights reserved.</p>
 
         </footer>
       </div>
