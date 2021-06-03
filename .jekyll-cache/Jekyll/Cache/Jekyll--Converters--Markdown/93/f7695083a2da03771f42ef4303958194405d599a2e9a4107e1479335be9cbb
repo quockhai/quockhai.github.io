@@ -1,0 +1,26 @@
+I"�<p>Bạn có <code class="highlighter-rouge">Data</code> và bạn muốn tạo một <code class="highlighter-rouge">String</code> với format dạng JSON từ nó? Đơn giản chỉ để <code class="highlighter-rouge">print</code> cái <code class="highlighter-rouge">String</code> ấy ra xem cho dễ chẳng hạn.</p>
+
+<hr />
+
+<p>Hãy tạo một extension cho <code class="highlighter-rouge">Data</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">extension</span> <span class="kt">Data</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">jsonString</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="p">{</span>
+        <span class="k">get</span> <span class="p">{</span>
+            <span class="k">if</span> <span class="k">let</span> <span class="nv">json</span> <span class="o">=</span> <span class="kt">String</span><span class="p">(</span><span class="nv">data</span><span class="p">:</span> <span class="k">self</span><span class="p">,</span> <span class="nv">encoding</span><span class="p">:</span> <span class="kt">String</span><span class="o">.</span><span class="kt">Encoding</span><span class="o">.</span><span class="n">utf8</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">return</span> <span class="n">json</span>
+            <span class="p">}</span>
+            
+            <span class="k">return</span> <span class="kc">nil</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Sau đó, ta có thể sử dụng nó như sau:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">data</span> <span class="o">=</span> <span class="c1">// #Your data</span>
+        
+<span class="nf">print</span><span class="p">(</span><span class="s">"JSON string: </span><span class="se">\(</span><span class="n">data</span><span class="o">.</span><span class="n">jsonString</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+</code></pre></div></div>
+:ET

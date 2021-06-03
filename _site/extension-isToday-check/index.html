@@ -87,7 +87,7 @@
 
   <div>
     <span class="date">
-      2021-06-03
+      2021-04-15
     </span>
 
     <ul class="tag">
@@ -104,6 +104,12 @@
         </a>
       </li>
       
+      <li>
+        <a href="http://localhost:4000/tags#Date">
+          Date
+        </a>
+      </li>
+      
     </ul>
   </div>
 
@@ -117,11 +123,14 @@
 
 <p>Để cho đơn giản, hãy tạo một extension cho <code class="highlighter-rouge">Date</code>:</p>
 
-<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">isToday</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span>
-	<span class="k">get</span> <span class="p">{</span>
-		<span class="k">return</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
-	<span class="p">}</span>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">extension</span> <span class="kt">Date</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">isToday</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span>
+        <span class="k">get</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="kt">Calendar</span><span class="o">.</span><span class="n">current</span><span class="o">.</span><span class="nf">isDateInToday</span><span class="p">(</span><span class="k">self</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
 <span class="p">}</span>
+
 </code></pre></div></div>
 
 <p>Sau đó, ta có thể sử dụng nó như sau:</p>
@@ -145,6 +154,12 @@
           </a>
       </span>
     
+    
+      <span class="next" >
+          <a href="http://localhost:4000/JSON-string-from-data/">
+            Extension - Tạo chuỗi JSON từ Data
+          </a>
+      </span>
     
   </div>
 
