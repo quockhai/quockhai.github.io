@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Extension: Kiểm tra một ngày bất kỳ có phải hôm nay
+title: Extension - Kiểm tra một ngày bất kỳ có phải hôm nay
 tags:
   - iOS
   - extension
