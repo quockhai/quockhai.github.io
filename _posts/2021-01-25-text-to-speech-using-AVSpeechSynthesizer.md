@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Text to speech using AVSpeechSynthesizer
+title: Text-To-Speech đơn giản với AVSpeechSynthesizer
 tags:
   - iOS
   - speech
 ---
 
-Using `AVSpeechSynthesizer` to convert text to speech in easy way.
+Sử dụng `AVSpeechSynthesizer` để làm tính năng Text-To-Speech một cách hết sức đơn giản.
 
-First, import `AVFoundation` to your class:
+Đầu tiên, import `AVFoundation`:
 
 ```swift
 import AVFoundation
 ```
 
-Create and using `AVSpeechSynthesizer`:
+Tạo và sử dụng `AVSpeechSynthesizer`:
 
 ```swift
 let utterance = AVSpeechUtterance(string: "Hello world")
@@ -25,4 +25,4 @@ let synthesizer = AVSpeechSynthesizer()
 synthesizer.speak(utterance)
 ```
 
-You can custom `AVSpeechSynthesisVoice` with `language` or `identifier` (ex: `com.apple.ttsbundle.Samantha-compact` for Samantha voice).
+Với `AVSpeechSynthesisVoice` bạn có thể chọn ngôn ngữ `language` và giọng đọc `identifier` (VD: `com.apple.ttsbundle.Samantha-compact` cho giọng của Samantha).
