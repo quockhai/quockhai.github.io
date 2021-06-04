@@ -35,3 +35,5 @@ let data = // #Your data
         
 print("JSON string: \(data.jsonString)")
 ```
+
+Vậy là bạn đã có thể ngắm JSON một cách đẹp mắt mà ko bị khó chịu bởi những dấu `\n` nữa rồi :D

@@ -25,3 +25,5 @@ imageView.animationDuration = 2.0
 
 imageView.startAnimating()
 ```
+
+Nếu bạn truyền vào một mảng 10 ảnh với duration là 2s, thì 10 hình ảnh đó sẽ chuyển lần lượt trong 2s, như một ảnh GIF vậy, rất thú vị.
