@@ -18,8 +18,8 @@ Chào anh em,
 
 * FaceTime: rất nhiều tính năng mới được giới thiệu dành cho FaceTime, có lẽ bởi dịch COVID-19, nhu cầu làm việc WFH tăng cao, hội họp online, tán gẫu bạn bè, ... và cũng có lẽ bởi Apple thấy Zoom phát triển quá nhanh, quá mạnh, điều đó khiến Apple tập trung nguồn lực cho FaceTime và rất tốt, chúng ta có FaceTime với hàng loạt tính năng mới. Trong đó có 2 tính năng mà tôi rất thích:
 
- * Voice Isolation mode: tính năng giúp chặn tiếng ồn xung quanh và làm nổi bật giọng nói của bạn
- * SharePlay: bây giờ bạn có thể xem phim cùng nhau, nghe nhạc cùng nhau, chia sẻ màn hình cho nhau, ... ngay khi đang gọi FaceTime. Tưởng tượng cả cả gia đình gọi FaceTime cho nhau rồi bật một bộ phim lên cả nhà cùng xem, rất thú vị :D
+ 1. Voice Isolation mode: tính năng giúp chặn tiếng ồn xung quanh và làm nổi bật giọng nói của bạn
+ 2. SharePlay: bây giờ bạn có thể xem phim cùng nhau, nghe nhạc cùng nhau, chia sẻ màn hình cho nhau, ... ngay khi đang gọi FaceTime. Tưởng tượng cả cả gia đình gọi FaceTime cho nhau rồi bật một bộ phim lên cả nhà cùng xem, rất thú vị :D
 
 * Messages: được thiết kế lại đôi chút giúp việc chia sẻ trở lên dễ dàng hơn, tính năng Pins thuận tiện hơn và bổ sung một số tính năng cho Notification
 * Focus: một tính năng rất hay mà tôi cực kỳ thích. Nó là một dạng của Do Not Disturb nhưng đã được cải tiến hơn với nhiều chế độ Focus khác nhau tùy vào việc bạn đang làm việc, đang lái xe, đang chơi game, hay đang đọc sách, ... mỗi chế độ Focus khác nhau sẽ được tùy chỉnh cho phù hợp với bối cảnh hiện tại của bạn. Hi vọng tính năng này sẽ giúp cải thiện hiệu suất hơn cho những ai đang làm việc tại nhà, bởi họ sẽ không bị chiếc điện thoại làm cho phân tâm hay mất tập trung.
