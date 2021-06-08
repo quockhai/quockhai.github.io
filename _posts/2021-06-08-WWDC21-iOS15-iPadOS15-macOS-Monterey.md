@@ -14,7 +14,7 @@ Chào anh em,
 
 Điểm lại một vài thứ mà mình thấy thú vị trong buổi giới thiệu WWDC21 của Apple:
 
-#####iOS 15
+**iOS 15**
 
 * FaceTime: rất nhiều tính năng mới được giới thiệu dành cho FaceTime, có lẽ bởi dịch COVID-19, nhu cầu làm việc WFH tăng cao, hội họp online, tán gẫu bạn bè, ... và cũng có lẽ bởi Apple thấy Zoom phát triển quá nhanh, quá mạnh, điều đó khiến Apple tập trung nguồn lực cho FaceTime và rất tốt, chúng ta có FaceTime với hàng loạt tính năng mới. Trong đó có 2 tính năng mà tôi rất thích:
 
@@ -29,14 +29,16 @@ Chào anh em,
 * Spotlight, Photos, Maps, Health, ... nhiều ứng dụng khác đều được phát triển hoàn thiện hơn.
 * Privacy: không thể bỏ qua mục này được, vì Apple có vẻ đang tập trung rất nhiều cho Privacy, hơi một tí là Apple lại mang Privacy để khoe. Với Privacy mới trên iOS 15, bạn có thể biết được ứng dụng nào đang dùng dữ liệu gì của bạn, dùng lúc nào, dùng bao nhiêu lần, ...
 
-#####iPadOS
+**iPadOS**
+
 * Multitasking: sử dụng dễ dàng hơn, giao diện thân thiện hơn.
 * Widgets & App Library: thêm Widgets ở bất cứ đâu, mở App Library ở bất cứ đâu ^^
 * Quick Note & Notes: thêm notes chưa bao giờ dễ dàng đến thế :))
 * Swift Playgrounds: tính năng hay nhất mà lập trình viên nên quan tâm, làm app và đưa lên AppStore bằng iPad, các bạn nên suy nghĩ một cách nghiêm túc về việc bỏ Xcode được rồi ;)
 * Universal Control: để các thiết bị gần nhau và bạn có thể kéo thả từ thiết bị này sang thiết bị kia. Easy!
 
-#####macOS 12 Monterey
+**macOS 12 Monterey**
+
 * Safari: thiết kế thanh Tab hoàn toàn mới, trông gọn gàng và hiện đại hơn.
 * Focus: giống như iOS, iPadOS, Focus cũng được mang lên macOS :D
 * Shortcuts on Mac: đã được mang lên macOS và sẽ thay thế cho Automator, giúp bạn làm được nhiều tác vụ, nhiều thứ thú vị hơn.
