@@ -8,8 +8,6 @@ tags:
   - macos
 ---
 
-Chào anh em,
-
 Đêm qua Apple đã có buổi khai mạc WWDC21 với rất nhiều tính năng mới cho iOS, iPadOS, macOS và cả watchOS. Vừa xem WWDC21 vừa xem vòng loại World Cup trận Việt Nam - Indonesia nên không thể hoàn toàn tập trung được, tuy nhiên tỷ số 4-0 thật là phê pha quá :))
 
 Điểm lại một vài thứ mà mình thấy thú vị trong buổi giới thiệu WWDC21 của Apple:
