@@ -1,4 +1,4 @@
-I"�<p>Bạn có <code class="highlighter-rouge">Data</code> và bạn muốn tạo một <code class="highlighter-rouge">String</code> với format dạng JSON từ nó? Đơn giản chỉ để <code class="highlighter-rouge">print</code> cái <code class="highlighter-rouge">String</code> ấy ra xem cho dễ chẳng hạn.</p>
+I"{	<p>Bạn có <code class="highlighter-rouge">Data</code> và bạn muốn tạo một <code class="highlighter-rouge">String</code> với format dạng JSON từ nó? Đơn giản chỉ để <code class="highlighter-rouge">print</code> cái <code class="highlighter-rouge">String</code> ấy ra xem cho dễ chẳng hạn.</p>
 
 <hr />
 
@@ -23,4 +23,6 @@
         
 <span class="nf">print</span><span class="p">(</span><span class="s">"JSON string: </span><span class="se">\(</span><span class="n">data</span><span class="o">.</span><span class="n">jsonString</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
 </code></pre></div></div>
+
+<p>Vậy là bạn đã có thể ngắm JSON một cách đẹp mắt mà ko bị khó chịu bởi những dấu <code class="highlighter-rouge">\n</code> nữa rồi :D</p>
 :ET

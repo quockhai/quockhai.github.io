@@ -1,4 +1,4 @@
-I"�<p><code class="highlighter-rouge">UIImage</code> ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?</p>
+I"�<p><code class="highlighter-rouge">UIImage</code> ngoài việc đặt một ảnh tĩnh, còn có thể tạo animation với một chuỗi các hình ảnh, hay không?</p>
 
 <p>Đơn giản, chỉ cần truyền vào một mảng các images và đặt duration cho chúng. Hãy làm như sau:</p>
 
@@ -14,4 +14,6 @@
 
 <span class="n">imageView</span><span class="o">.</span><span class="nf">startAnimating</span><span class="p">()</span>
 </code></pre></div></div>
+
+<p>Nếu bạn truyền vào một mảng 10 ảnh với duration là 2s, thì 10 hình ảnh đó sẽ chuyển lần lượt trong 2s, như một ảnh GIF vậy, rất thú vị.</p>
 :ET
