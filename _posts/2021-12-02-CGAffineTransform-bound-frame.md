@@ -13,7 +13,7 @@ Lâu lâu mới lại có bài hầu chuyện anh em. Mấy tháng vừa rồi m
 
 Đợt này thì vẫn bận như vậy thôi, nhưng mình sẽ cố gắng quay lại viết bài đều đặn hơn, cố gắng mỗi tuần ra 1-2 bài nhỏ nhỏ chia sẻ với anh em ;)
 
-Cụ thể, hôm nay mình gặp vấn đề với `CGAffineTransform`, mình dùng hàm `CGAffineTransformMakeRotation` để xoay một view. Việc xoay thì rất OK, nhưng kết quả không mong muốn là khi xoay thì size của view cũng bị thay đổi.
+Cụ thể, hôm nay mình gặp vấn đề với `CGAffineTransform`, mình dùng hàm `CGAffineTransformMakeRotation` để xoay một `UIView`. Việc xoay thì rất OK, nhưng kết quả không mong muốn là khi xoay thì `size` của `UIView` cũng bị thay đổi.
 
 Vò đầu bứt tai cả ngày trời mà không tìm ra phương án giải quyết. Mãi vừa xong mới tìm được manh mối:
 
