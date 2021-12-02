@@ -1,0 +1,11 @@
+I"�<p>Xử lý các vấn đề liên quan đến <code class="highlighter-rouge">keyboard</code> lúc nào cũng là một công việc tốn thời gian với nhiều chi tiết lặt vặt.</p>
+
+<p>Lần này, ở WWDC21 với iOS 15, có vẻ Apple đã lắng nghe và trợ giúp các lập trình viên xử lý vấn đề này với <code class="highlighter-rouge">UIKeyboardLayoutGuide</code>.</p>
+
+<p>Giờ đây, ngoài <code class="highlighter-rouge">safeAreaLayoutGuide</code>, chúng ta có thêm <code class="highlighter-rouge">keyboardLayoutGuide</code>, như ví dụ dưới đây:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">inputView</span><span class="o">.</span><span class="n">bottomAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">view</span><span class="o">.</span><span class="n">keyboardLayoutGuide</span><span class="o">.</span><span class="n">topAnchor</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre></div></div>
+
+<p>Với dòng lệnh trên, <code class="highlighter-rouge">inputView</code> sẽ luôn luôn nằm phía trên của <code class="highlighter-rouge">keyboard</code>. Quá hay!</p>
+:ET

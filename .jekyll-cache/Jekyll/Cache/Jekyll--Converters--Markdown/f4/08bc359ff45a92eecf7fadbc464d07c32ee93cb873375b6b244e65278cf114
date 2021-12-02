@@ -1,0 +1,33 @@
+I"�<p>WWDC21 với rất nhiều thay đổi trên iOS 15 và <code class="highlighter-rouge">UISheetPresentationController</code> là một trong số đó.</p>
+
+<p>Với <code class="highlighter-rouge">UISheetPresentationController</code> anh em có thể custom nhiều hơn cách hiển thị một <code class="highlighter-rouge">viewController</code>. Cùng khám phá nào ^^</p>
+
+<p>Bắt đầu với một hàm khởi tạo mặc định:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">showSheetViewController</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">let</span> <span class="nv">sheetViewController</span> <span class="o">=</span> <span class="kt">KTSheetViewController</span><span class="p">(</span><span class="nv">nibName</span><span class="p">:</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+   
+    <span class="nf">present</span><span class="p">(</span><span class="n">sheetViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kc">nil</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Anh em có thể đặt size mặc định cho <code class="highlighter-rouge">KTSheetViewController </code> trong hàm <code class="highlighter-rouge">viewDidLoad</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+    
+    <span class="k">if</span> <span class="k">let</span> <span class="nv">presentationController</span> <span class="o">=</span> <span class="n">presentationController</span> <span class="k">as?</span> <span class="kt">UISheetPresentationController</span> <span class="p">{</span>
+        <span class="n">presentationController</span><span class="o">.</span><span class="n">detents</span> <span class="o">=</span> <span class="p">[</span><span class="o">.</span><span class="nf">medium</span><span class="p">(),</span> <span class="o">.</span><span class="nf">large</span><span class="p">()]</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Và lựa chọn chọn ẩn/hiển <code class="highlighter-rouge">grabber</code>:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">presentationController</span> <span class="o">=</span> <span class="n">presentationController</span> <span class="k">as?</span> <span class="kt">UISheetPresentationController</span> <span class="p">{</span>
+	<span class="n">presentationController</span><span class="o">.</span><span class="n">detents</span> <span class="o">=</span> <span class="p">[</span><span class="o">.</span><span class="nf">medium</span><span class="p">(),</span> <span class="o">.</span><span class="nf">large</span><span class="p">()]</span>
+	<span class="n">presentationController</span><span class="o">.</span><span class="n">prefersGrabberVisible</span> <span class="o">=</span> <span class="kc">true</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Với sự hỗ trợ của <code class="highlighter-rouge">UISheetPresentationController</code>, anh em sẽ tiết kiệm được rất nhiều công sức cho việc vẽ các <code class="highlighter-rouge">UIViewController</code>, thời gian đó dành để tập trung xử lý logic và các công việc khác hữu ích hơn ^^</p>
+:ET
