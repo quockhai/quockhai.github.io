@@ -1,8 +1,8 @@
 ---
 layout: post
-title: CGAffineTransform - Bound vs. Frame
+title: CGAffineTransform - Bounds vs. Frame
 tags:
-  - bound
+  - bounds
   - frame
   - ios
 ---
@@ -21,6 +21,6 @@ Vò đầu bứt tai cả ngày trời mà không tìm ra phương án giải qu
 
 Đây là đoạn lưu ý về `frame` trong Apple Documentation.
 
-Vậy đó, nếu có vấn đề với `size` khi sử dụng `CGAffineTransform`, thì hãy dùng `bound` thay cho `frame` - rất hay phải không?
+Vậy đó, nếu có vấn đề với `size` khi sử dụng `CGAffineTransform`, thì hãy dùng `bounds` thay cho `frame` - rất hay phải không?
 
 Cám ơn anh em.
