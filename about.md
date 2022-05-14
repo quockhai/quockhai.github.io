@@ -11,9 +11,9 @@ permalink: /about/
 
 Tôi là một người yêu thích công nghệ, đam mê học hỏi và tìm hiểu những kiến thức mới. Blog này là nơi tôi lưu trữ và chia sẻ những kiến thức mà tôi đã tìm hiểu, những kinh nghiệm mà tôi đã gặp trong quá trình học hỏi và làm việc.
 
----
-
 Đôi điều chia sẻ về quá trình hoạt động của tôi:
+
+---
 
 **2013**
 
