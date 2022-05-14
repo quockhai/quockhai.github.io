@@ -17,7 +17,7 @@ Tôi là một người yêu thích công nghệ, đam mê học hỏi và tìm 
 
 **2013**
 
-Hồi đó là khoảng năm thứ 3 Đại học, tôi bắt đầu làm quen với lập trình iOS từ năm thứ 3 Đại học, khi mà iPhone 4, iPhone 5 vẫn đang là những siêu phẩm làm thay đổi cách thế giới sử dụng điện thoại.
+Hồi đó là khoảng năm thứ 3 Đại học, tôi bắt đầu làm quen với lập trình iOS. Khi đó iPhone 4, iPhone 5 vẫn đang là những siêu phẩm làm thay đổi cách thế giới sử dụng điện thoại.
 
 Năm đó, tôi nhận được một học bổng toàn phần cho một khóa học về Lập trình iOS. Khóa học có 6 học viên, với 2 thầy giáo, một người tôi không còn nhớ nữa, người còn lại là thầy Trần Đình Hợp, thầy Hợp chính là người đã dạy tôi những bước đi đầu tiên trên con đường lập trình iOS. Khóa học đó về sau, chỉ có mình tôi được cấp chứng chỉ. Và đề tài khóa luận tốt nghiệp của tôi cũng là về: Lập trình ứng dụng di động.
 
@@ -39,7 +39,7 @@ Sau đó, là quãng thời gian 3 năm tôi học Thạc sĩ ở **IFI - Viện
 
 Giấc mơ Pháp - giấc mơ học tiếp lên tiến sĩ và tạo dựng sự nghiệp tại Pháp không thành, tôi quay về Việt Nam và tiếp tục con đường Lập trình iOS cho đến tận bây giờ.
 
-Hiện tôi đang làm full-time tại một công ty phát triển các ứng dụng iOS. Tôi cũng tự phát triển các ứng dụng iOS của riêng mình và đưa lên AppStore.
+Hiện tôi đang làm full-time tại một công ty phát triển các ứng dụng iOS. Tôi cũng tự phát triển các ứng dụng iOS của riêng mình và đưa lên App Store.
 
 Ngoài iOS, tôi cũng biết sơ sơ một chút về Python, ngôn ngữ này tôi hay dùng để làm một vài thứ nho nhỏ mà tôi yêu thích. Python khá hay, bởi cú pháp của nó rất gọn gàng và có nhiều thư viện hỗ trợ rất hữu ích.
 
